@@ -1,0 +1,391 @@
+/*HTML*/
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: Tahoma, Verdana, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	background-color: #FFFFFF;
+	background-image:url(img/backg-t03.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed
+	
+}
+a {
+	text-decoration: underline;
+	color: #0092BB;
+}
+a:hover {
+	text-decoration: none;
+}
+
+img {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #FFCC66;
+	font-weight: normal;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+
+   
+}
+
+
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #546546;
+	margin: 0px;
+	padding: 0px;
+	text-transform: uppercase;
+ 
+}
+
+h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #000000;
+	margin: 0px;
+	padding: 0px;
+
+}
+p {
+	padding-left: 0px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-top: 10px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 8px;
+	margin-left: 0px;
+
+}
+
+
+
+/*BOX*/
+
+#Main {
+	position:absolute;
+	width:1000px;
+	height:1100px;
+	left:50%;
+	top:0%;
+	margin-top:-1px;
+	margin-left:-500px;
+	z-index:1;
+	background-image:url(img/whitebg.png);
+	background-repeat:repeat;
+}
+#Main-chant {
+	position:absolute;
+	width:1000px;
+	height:1800px;
+	left:50%;
+	top:0%;
+	margin-top:-1px;
+	margin-left:-500px;
+	z-index:1;
+	background-image:url(img/whitebg.png);
+	background-repeat:repeat;
+}
+
+#tebew {
+	position:absolute;
+	background-image:url(img/ban-ombrebis.png);
+	left:42px;
+	top:2px;
+	width:800px;
+	height:170px;
+	z-index:2;
+	left: 102px;
+}
+
+
+#Menu {
+	position:absolute;
+	left:112px;
+	top:173px;
+	width:770px;
+	height:36px;
+	z-index:1;
+	color:#000000;
+}
+
+
+#Content1 {
+	position:absolute;
+	left:381px;
+	top:263px;
+	width:483px;
+	height:656px;
+	z-index:2;
+	
+}
+
+#logofacequil {
+	position:absolute;
+	left:311px;
+	top:293px;
+	width:45px;
+	height:46px;
+	z-index:2;
+	
+}
+
+#logoartenegra {
+	position:absolute;
+	left:292px;
+	top:378px;
+	width:45px;
+	height:46px;
+	z-index:2;
+	
+}
+
+#capoeira01 {
+	position:absolute;
+	left:381px;
+	top:263px;
+	width:483px;
+	height:656px;
+	z-index:2;
+	
+}
+
+#asso01 {
+	position:absolute;
+	left:381px;
+	top:263px;
+	width:483px;
+	height:656px;
+	z-index:2;
+	
+}
+
+#chant01 {
+	position:absolute;
+	left:381px;
+	top:263px;
+	width:483px;
+	height:756px;
+	z-index:2;
+	
+}
+
+#historique01 {
+	position:absolute;
+	left:381px;
+	top:263px;
+	width:483px;
+	height:656px;
+	z-index:2;
+	
+}
+
+#objectifs01 {
+	position:absolute;
+	left:381px;
+	top:263px;
+	width:483px;
+	height:656px;
+	z-index:2;
+	
+}
+
+#histoire01 {
+	position:absolute;
+	left:381px;
+	top:263px;
+	width:483px;
+	height:656px;
+	z-index:2;
+	
+}
+
+#photos01 {
+	position:absolute;
+	left:155px;
+	top:263px;
+	width:700px;
+	height:600px;
+	z-index:2;
+	
+}
+
+#video01 {
+	position:absolute;
+	left:261px;
+	top:263px;
+	width:480px;
+	height:385px;
+	z-index:2;
+	
+}
+
+#video02 {
+	position:absolute;
+	left:261px;
+	top:663px;
+	width:480px;
+	height:385px;
+	z-index:2;
+	
+}
+
+#chant01 {
+	position:absolute;
+	left:383px;
+	top:263px;
+	width:462px;
+	height:775px;
+	z-index:2;
+	
+}
+
+#chant02 {
+	position:absolute;
+	left:601px;
+	top:263px;
+	width:220px;
+	height:656px;
+	z-index:2;
+	
+}
+
+#cours01 {
+	position:absolute;
+	left:291px;
+	top:263px;
+	width:400px;
+	height:571px;
+	z-index:2;
+	
+}
+
+#event01 {
+	position:absolute;
+	left:210px;
+	top:263px;
+	width:576px;
+	height:720px;
+	z-index:2;
+	
+}
+
+#grade01 {
+	position:absolute;
+	left:381px;
+	top:263px;
+	width:483px;
+	height:656px;
+	z-index:2;
+	
+}
+
+#Content2 {
+	position:absolute;
+	left:160px;
+	top:265px;
+	width:200px;
+	height:150px;
+	z-index:2;
+	;
+}
+
+#Content3 {
+	position:absolute;
+	left:160px;
+	top:434px;
+	width:200px;
+	height:150px;
+	z-index:2;
+}
+
+#imgrade {
+	position:absolute;
+	left:160px;
+	top:265px;
+	width:200px;
+	height:150px;
+	z-index:2;
+	;
+}
+
+#FooterText {
+	position:absolute;
+	text-align:center;
+	left:122px;
+	top:1056px;
+	width:748px;
+	z-index:1;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	font-size: 10px;
+	color:#99C;
+	height: 18px;
+}
+#FooterTextChant {
+	position:absolute;
+	text-align:center;
+	left:122px;
+	top:1760px;
+	width:748px;
+	z-index:1;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	font-size: 10px;
+	color:#99C;
+	height: 18px;
+}
+#FooterText a {
+	color: #FECC00;
+}
+#FooterText a:hover {
+	text-decoration: none;
+}
+
+
+#FooterLogo {
+	position:absolute;
+	left:857px;
+	top:867px;
+	width:165px;
+	z-index:1;
+	height: 42px;
+	text-align: right;
+}
+
+/*ACCORDION*/
+
+
+.header_highlight{
+	background-color: #0092BB;
+	color: #FFFFFF;
+	background-image: url(../Pictures/AccSelected.gif);
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+#siteMap {
+	position: absolute;
+	z-index: 2;
+	left: 44px;
+	top: 77px;
+	width: 125px;
+	height: 32px;
+}
