@@ -1,2 +1,3 @@
 # quilomboVivo
-Sítio web quilombovivo.fr Arte Negra
+Sítio web quilombovivo.fr
+Associação de capoeira Quilombo Vivo
