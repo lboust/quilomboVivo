@@ -1,0 +1,78 @@
+@media (max-width:992px) {
+    article{
+        margin: 5px 10px;
+        padding: 5px;
+    }
+    section {
+        width: 100%;
+        margin-top: 5px;
+    }
+    .vertical-divider {
+        line-height: 0;
+    }
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto; 
+        width: 100%;
+    }
+    .cours img, .grades img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto; 
+        padding-bottom: 10px;
+    }
+    .img-capoeira {
+        max-width: 232px;
+    }
+}
+
+@media (min-width:993px) {
+    .news {
+        width: 37%;
+    }
+    .slider {
+        width: 61%;
+    }
+    .vertical-divider {
+        width: 2%;
+    }
+    .article-left {
+        width: 49%;
+    }
+    .article-right {
+        width: 49%;
+    }
+    section {
+        padding-left: 120px;
+        padding-right: 120px;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    article {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .cours, .grades{
+        width: 100%;
+    }
+    .cours img, .grades img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto; 
+        padding-bottom: 10px;
+    }
+    .capoeira div {
+        width: 100%;
+    }
+    .img-capoeira {
+        max-width: 200px;
+        width: 100%;
+        float: left;
+        margin: 0px 10px 0px 0px;
+    }
+}
+
+.videos {
+    display: none;
+}
