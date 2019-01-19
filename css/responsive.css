@@ -1,4 +1,7 @@
 @media (max-width:992px) {
+    .news {
+        font-size: 14px;
+    }
     article{
         margin: 5px 10px;
         padding: 5px;
@@ -25,14 +28,27 @@
     .img-capoeira {
         max-width: 232px;
     }
+    .address {
+        font-size: 12px;
+        margin: 8px 0;
+    }
+    .pricing {
+        font-size: 12px;
+    }
+    .foto-festival {
+        margin: auto;
+        border: rgb(31,78,121) solid 3px;
+    }
 }
 
 @media (min-width:993px) {
     .news {
-        width: 37%;
+        width: 40%;
+        font-size: 18px;
+        /* line-height: 21px; */
     }
     .slider {
-        width: 61%;
+        width: 58%;
     }
     .vertical-divider {
         width: 2%;
@@ -71,8 +87,71 @@
         float: left;
         margin: 0px 10px 0px 0px;
     }
+    .address {
+        font-size: 14px;
+        margin: 10px 0;
+    }
+    .pricing {
+        font-size: 14px;
+    }
+    .foto-festival {
+    display: none;
+    }
+    .foto-festival-desktop{
+        width: 100%;
+        margin: 10px 0;
+    }
 }
 
 .videos {
     display: none;
+}
+strong {
+    font-weight: 700;
+    color: rgb(31,78,121);
+}
+.bold {
+    font-weight: 700;
+}
+.margin-auto {
+    margin: auto;
+}
+.text-align-center {
+    text-align: center;
+}
+.blue-border {
+    border: rgb(31,78,121) solid 3px;
+    padding: 8px;
+    margin: 10px 0;
+}
+
+.underline {
+text-decoration: underline;
+}
+
+.margin-8 {
+    margin: 8px;
+}
+
+.margin-x-8 {
+    margin: 0 8px;
+}
+
+.margin-y-8 {
+    margin: 8px 0;
+}
+
+.margin-b-8 {
+    margin-bottom: 8px;
+}
+
+.separator {
+    border: rgb(31,78,121) solid 1px;
+    width: 80%;
+    margin: 8px auto;
+    text-align: center;
+}
+
+.padding-b-8 {
+    padding-bottom: 8px;
 }
