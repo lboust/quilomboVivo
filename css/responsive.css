@@ -39,6 +39,9 @@
         margin: auto;
         border: rgb(31,78,121) solid 3px;
     }
+    .foto-festival-desktop{
+        display: none;
+    }
 }
 
 @media (min-width:993px) {
