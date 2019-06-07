@@ -158,3 +158,30 @@ text-decoration: underline;
 .padding-b-8 {
     padding-bottom: 8px;
 }
+
+.button {
+    color: #fff;
+    background-color: rgb(31,78,121);
+    border-color: rgb(31,78,121);
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 2px solid transparent;
+    padding: 0.5rem 1.125rem;
+    font-size: 1rem;
+    line-height: 1.25;
+    border-radius: 0;
+    transition: all 0.2s ease-in-out;
+}
+
+.button:hover, .button:focus {
+    color: rgb(31,78,121);
+    background-color: #fff;
+    border-color: rgb(31,78,121);
+}
