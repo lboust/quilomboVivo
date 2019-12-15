@@ -32,6 +32,9 @@
         font-size: 12px;
         margin: 8px 0;
     }
+    .address-inline {
+        font-size: 12px;
+    }
     .pricing {
         font-size: 12px;
     }
@@ -94,6 +97,9 @@
         font-size: 14px;
         margin: 10px 0;
     }
+    .address-inline {
+        font-size: 14px;
+    }
     .pricing {
         font-size: 14px;
     }
@@ -112,6 +118,11 @@
 strong {
     font-weight: 700;
     color: rgb(31,78,121);
+}
+
+underline {
+    font-weight: 700;
+    text-decoration: underline;
 }
 .bold {
     font-weight: 700;
@@ -146,6 +157,14 @@ text-decoration: underline;
 
 .margin-b-8 {
     margin-bottom: 8px;
+}
+
+.margin-b-0 {
+    margin-bottom: 0;
+}
+
+.margin-t-0 {
+    margin-top: 0;
 }
 
 .separator {
@@ -184,4 +203,16 @@ text-decoration: underline;
     color: rgb(31,78,121);
     background-color: #fff;
     border-color: rgb(31,78,121);
+}
+
+.font-size-12 {
+    font-size: 12px;
+}
+
+.padding-0 {
+    padding: 0;
+}
+
+.margin-0 {
+    margin: 0;
 }
