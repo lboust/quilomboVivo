@@ -96,9 +96,15 @@ color: #eee;
     max-height: 480px;
   }
 
-  .swiper-button-prev::after, .swiper-button-next::after {
+.swiper-button-prev::after, .swiper-button-next::after {
       color:#ffcc00;
-  }
+}
+.swiper .swiper-button-prev::after {
+    content: "\27E8";
+}
+.swiper .swiper-button-next::after {
+    content: "\27E9";
+}
   .swiper-button-prev, .swiper-button-next {
     background-color: #555;
     opacity: 0.5;
