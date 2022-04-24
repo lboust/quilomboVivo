@@ -90,3 +90,22 @@ body a:hover, body a:focus {
 .color-gray {
 color: #eee;
 }
+
+.swiper {
+    max-width: 480px;
+    max-height: 480px;
+  }
+
+  .swiper-button-prev::after, .swiper-button-next::after {
+      color:#ffcc00;
+  }
+  .swiper-button-prev, .swiper-button-next {
+    background-color: #555;
+    opacity: 0.5;
+}
+.swiper-pagination .swiper-pagination-bullet-active {
+    background-color:#ffcc00;
+}
+
+
+  

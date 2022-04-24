@@ -18,8 +18,35 @@
     gtag('config', 'G-J4XV8E5L1S');
   </script>
   <script src="https://cdn.jsdelivr.net/npm/boosted@5.1.3/dist/js/boosted.bundle.min.js" integrity="sha384-5thbp4uNEqKgkl5m+rMBhqR+ZCs+3iAaLIghPWAgOv0VKvzGlYKR408MMbmCjmZF" crossorigin="anonymous"></script>
+  
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script>
+  window.addEventListener('load', function () {
+  const swiper = new Swiper('.swiper', {
+    speed: 400,
+  spaceBetween: 100,
+  loop: true,
+  slidesPerView: 1,
+  zoom: {
+    maxRatio: 2,
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev'
+  }
+});
+  });
+</script>
   <!-- Copyright © 2014 Monotype Imaging Inc. All rights reserved -->
 <link href="https://cdn.jsdelivr.net/npm/boosted@5.1.3/dist/css/boosted.min.css" rel="stylesheet" integrity="sha384-Di/KMIVcO9Z2MJO3EsrZebWTNrgJTrzEDwAplhM5XnCFQ1aDhRNWrp6CWvVcn00c" crossorigin="anonymous">
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+/>
 
 </head>
 
@@ -114,6 +141,35 @@
 </div>
 </section>
 <section class="d-none d-md-block" id="img-background">
+  </section>
+  <section id="swiper" class="container-fluid site-width mx-auto pt-2 pt-md-4">
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <div class="swiper-zoom-container">
+            <img src="img/enfants480.jpg">
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="swiper-zoom-container">
+            <img src="img/professeurs480.jpg">
+            </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="swiper-zoom-container">
+            <img src="img/maculele480.jpeg">
+          </div>
+        </div>
+      </div>
+      <!-- pagination -->
+      <div class="swiper-pagination"></div>
+    
+      <!-- navigation buttons -->
+      <div class="swiper-button-prev p-4"></div>
+      <div class="swiper-button-next p-4"></div>
+  
+    </div>
   </section>
 <section id="news" class="row container-fluid site-width mx-auto justify-content-center pt-2 pt-md-4">
     <h2>12 ème Festival Quilombo Vivo</h2>
