@@ -25,6 +25,9 @@
 .text-wrapper {
     text-align: justify;
 }
+.card {
+    height: 100%;
+}
 .card-container .card-item {
     max-width: 480px;
 }
@@ -40,28 +43,6 @@
 .card-container .card-body a:focus, .card-container .card-body a:hover  {
     color: #ffcc00;
 }
-@media (min-width: 768px) {
-    .card-item:nth-child(1) {
-        margin-right: -30px;
-    }
-.card-item:nth-child(2) {
-    margin-right: 15px;
-}
-.card-item:nth-child(3) {
-    margin-right: 15px;
-}
-}
-@media (min-width: 1024px) {
-    .card-item:nth-child(1) {
-        margin-right: -60px;
-    }
-    .card-item:nth-child(2) {
-        margin-right: 30px;
-    }
-    .card-item:nth-child(3) {
-        margin-right: 30px;
-    }
-    }
 
 #img-background {
     background-color: white;
