@@ -56,7 +56,10 @@
   <div class="col-12 d-none d-md-block">
     <div class="d-flex align-items-center justify-content-between">
       <h1 class="col-6 col-lg-5 l-4 mb-0">Association de capoeira Quilombo&nbsp;Vivo</h1>
-      <img class="d-none d-lg-block mb-2" width="120px" src="img/logoFondBlancXS.jpg" alt="logo quilombo vivo">
+      <picture>
+        <source srcset="img/logoFondBlancXS.png 1x, img/logoFondBlancXS2x.png 2x">
+        <img class="d-none d-lg-block mb-2" width="120px" src="img/logoFondBlancXS.png" srcset="img/logoFondBlancXS.png 1x" alt="logo quilombo vivo">
+      </picture>
       <ul class="col-6 col-lg-5 p-0 nav justify-content-end">
         <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a>
       </li>
@@ -69,11 +72,14 @@
     </div>
     
   <nav class="d-md-none col-12" aria-label="Main navigation">
-    <div class="d-flex justify-content-between">
-      <img class="mb-2" width="120px" src="img/logoFondBlancXS.jpg" alt="logo quilombo vivo">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#bdNavbar" aria-controls="bdNavbar" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+    <div class="d-flex">
+      <picture class="mx-auto">
+        <source srcset="img/logoFondBlancXS.png 1x, img/logoFondBlancXS2x.png 2x">
+        <img class="mb-2" width="120px" src="img/logoFondBlancXS.png" srcset="img/logoFondBlancXS.png 1x" alt="logo quilombo vivo">
+      </picture>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#bdNavbar" aria-controls="bdNavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
     </div>
     <div class="collapse navbar-collapse bd-navbar-nav" id="bdNavbar">
       <ul class="navbar-nav justify-content-end">
