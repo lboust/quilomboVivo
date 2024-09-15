@@ -98,52 +98,65 @@
 <!-- CONTEÚDO -->
 
 <section class="bg-yellow row container-fluid site-width mx-auto justify-content-center">
-  <div class="row row-cols-1 row-cols-md-4 g-2 mb-2 card-container card-group">
+  <div class="row row-cols-1 row-cols-md-3 g-2 mb-2 card-container card-group">
     <div class="col">
       <div class="card card-item">
-        <div class="d-flex">
-          <img src="img/cours2023-2024.jpg" class="card-img-top" alt="fiche des cours">
-        </div>
-
         <div class="card-body d-flex flex-column justify-content-between">
-          <h5 class="card-title">Cours de capoeira</h5>
+          <h5 class="card-title">Cours de capoeira à Bordeaux</h5>
           <p class="card-text">
-            <span>La Brède</span></br>
-            <span>Gradignan</span></br>
-            <span>Mérignac</span></br>
-            <span>Bordeaux</span></br>           
+            <span>Cours enfant</span></br>   
+            <span>Cours ado/adulte</span>             
           </p>
-          <a href="#cours" class="btn btn-primary">En savoir plus</a>
+          <a href="#coursBordeaux" class="card-link btn btn-primary">En savoir plus</a>
         </div>
+        <img class="card-img-bottom" src="img/cours2024-2025BordeauxS.jpg" alt="fiche des cours">
       </div>
     </div>
     <div class="col">
       <div class="card card-item">
-        <div class="row">
-          <img src="img/professeur480.png" class="card-img-top" alt="professeur de l'association">
+        <div class="card-body d-flex flex-column justify-content-between">
+          <h5 class="card-title">Cours de capoeira à La Brède</h5>
+          <p class="card-text">
+            <span>Cours enfant</span></br>   
+            <span>Cours ado/adulte</span>      
+          </p>
+          <a href="#coursLaBrede" class="card-link btn btn-primary">En savoir plus</a>
         </div>
+        <img class="card-img-bottom" src="img/cours2024-2025LaBredeS.jpg" alt="fiche des cours">
+      </div>
+    </div>
+    <div class="col">
+      <div class="card card-item">
+        <div class="card-body d-flex flex-column justify-content-between">
+          <h5 class="card-title">Cours de capoeira à Mérignac</h5>
+          <p class="card-text">
+            <span>Cours enfant</span>   
+          </p>
+          <a href="#coursMerignac" class="card-link btn btn-primary">En savoir plus</a>
+        </div>
+        <img class="card-img-bottom" src="img/cours2024-2025MerignacS.jpg" alt="fiche des cours">
+      </div>
+    </div>
+    <div class="col">
+      <div class="card card-item">
         <div class="card-body d-flex flex-column justify-content-between">
           <h5 class="card-title">L'association Quilombo Vivo</h5>
           <p class="card-text">
             <span>Professeur Gia</span></br>
             <span>Groupe Arte Negra</span></br>
             </p>
-          <a href="lassociation.html" class="btn btn-primary">En savoir plus</a>
+          <a href="lassociation.html" class="card-link btn btn-primary">En savoir plus</a>
         </div>
+        <img class="card-img-bottom" src="img/professeur480.png" alt="professeur de l'association">
       </div>
     </div>
     <div class="col">
       <div class="card card-item">
-        <div class="row">
-          <img src="img/lesgradesmini.jpg" class="card-img-top" alt="cordes des grades">
-        </div>
         <div class="card-body d-flex flex-column justify-content-between">
           <h5 class="card-title">Les grades</h5>
-          <p class="card-text">
-            <span></span></br>
-            </p>
-          <a href="lesgrades.html" class="btn btn-primary">En savoir plus</a>
+          <a href="lesgrades.html" class="card-link btn btn-primary">En savoir plus</a>
         </div>
+        <img src="img/lesgradesmini.jpg" class="card-img-bottom" alt="cordes des grades">
       </div>
     </div>
 </section>
@@ -180,14 +193,28 @@
     </div>
   </section>
 <section id="news" class="row container-fluid site-width mx-auto justify-content-center pt-2 pt-md-4">
-  <h2 id="cours">Cours de capoeira</h2>
-    <p>Saison 2023-2024</p>
+  <h2>Cours de capoeira 2024-2025</h2>
+    <p id="coursBordeaux">Cours de capoeira à Bordeaux</p>
     <div class="col-12 col-md-6">
-    <a type="button" href="img/cours2023-2024.jpg" class="button bold" alt="télécharger la fiche des cours" download="cours-capoeira-2023-2024">Télécharger la fiche des cours</a>
+    <a type="button" href="img/cours2024-2025Bordeaux.jpg" class="button bold" alt="télécharger la fiche des cours Bordeaux" download="cours-capoeira-2024-2025-bordeaux">Télécharger la fiche des cours à Bordeaux</a>
       <div class="justify-content-center row">
-        <img src="img/cours2023-2024.jpg" class="col-12 px-0 py-4" alt="fiche des cours">
+        <img src="img/cours2024-2025BordeauxS.jpg" class="col-12 px-0 py-4" alt="fiche des cours Bordeaux">
       </div>
     </div>
-    </section>
+    <p id="coursLaBrede">Cours de capoeira à La Brède</p>
+    <div class="col-12 col-md-6">
+    <a type="button" href="img/cours2024-2025LaBrede.jpg" class="button bold" alt="télécharger la fiche des cours La Brède" download="cours-capoeira-2024-2025-la-brede">Télécharger la fiche des cours à La Brède</a>
+      <div class="justify-content-center row">
+        <img src="img/cours2024-2025LaBredeS.jpg" class="col-12 px-0 py-4" alt="fiche des cours La Brède">
+      </div>
+    </div>
+    <p id="coursMerignac">Cours de capoeira à Mérignac</p>
+    <div class="col-12 col-md-6">
+    <a type="button" href="img/cours2024-2025Merignac.jpg" class="button bold" alt="télécharger la fiche des cours Mérignac" download="cours-capoeira-2024-2025-merignac">Télécharger la fiche des cours à Mérignac</a>
+      <div class="justify-content-center row">
+        <img src="img/cours2024-2025MerignacS.jpg" class="col-12 px-0 py-4" alt="fiche des cours Mérignac">
+      </div>
+    </div>
+  </section>
 </body>
 </html>
