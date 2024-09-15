@@ -31,17 +31,18 @@
 .card-container .card-item {
     max-width: 480px;
 }
-.card-container .card-body a {
+.card-container .card-link {
     background-color: white;
     padding-left: 0;
     padding-right: 0;
-    margin-left: auto;
     margin-right: auto;
     border: none;
     border-bottom: #ffcc00 3px solid;
 }
-.card-container .card-body a:focus, .card-container .card-body a:hover  {
+.card-container .card-link:focus, .card-container .card-link:hover  {
     color: #ffcc00;
+    background-color: white;
+    border-color: #ffcc00;
 }
 
 #img-background {
